@@ -161,7 +161,7 @@ def convertToCSV(csv_file,csv_columns,dict_data,URL):
         
 #Input the URL e.g.-http://www.wunderground.com/personal-weather-station/dashboard?ID=IROURKEL4
 '''Weather station URL'''
-URL="https://www.wunderground.com/dashboard/pws/KFLMIAMI526"
+URL="https://www.wunderground.com/dashboard/pws/IROURKEL4"
 lastIndex=URL.rfind('/')
 stationid=URL[lastIndex+1:]
 fetchWeatherDetails(URL)
